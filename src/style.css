@@ -1,0 +1,240 @@
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 14px;
+}
+
+#container-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 350px;
+  margin: 50px auto;
+}
+
+#container-content div {
+  margin: 5px 0;
+}
+
+#form-login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+form input {
+  padding: 5px;
+  width: 100%;
+}
+.header-links li {
+  display: flex;
+  color: rgb(20, 41, 75);
+
+ 
+}
+.header-links a {
+  color: rgb(20, 41, 75);
+  font-size: 14px;
+  font-weight: 800;
+}
+
+.header-links > li div {
+  width: 150px;
+}
+
+header {
+  display: flex;
+  justify-content: space-around;
+  background-color: #f3f3f3;
+  align-items: center;
+}
+
+header{
+  height: 100px;
+}
+
+footer {
+  background-color: #c0c0c0;
+  color: rgb(0, 0, 0);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 35px;
+ position: fixed;
+
+  bottom: 0;
+  width: 100%;
+  left: 0;
+}
+footer a {
+  color: rgb(0, 0, 0);
+}
+a {
+  text-decoration: none;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+
+li div {
+  margin: 0 15px;
+}
+
+.bem-vindo {
+  font-size: 18px;
+  background-color: rgb(0, 63, 141);
+  text-align: center;
+  color: #fff;
+  padding: 5px;
+}
+
+.cadastrar-carros {
+  font-size: 18px;
+  background-color: rgb(64, 139, 7);
+  text-align: center;
+  color: #fff;
+  padding: 5px;
+}
+
+.listar-carros {
+  font-size: 18px;
+  background-color: rgb(6, 104, 113);
+  text-align: center;
+  color: #fff;
+  padding: 5px;
+}
+
+.return-result {
+  margin: 15px;
+  font-weight: 700;
+}
+
+#table-lista-carros, #table-lista-carros-pesquisa {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+#table-lista-carros td,
+#table-lista-carros-pesquisa td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 15px;
+}
+#table-lista-carros tr:nth-child(even),
+#table-lista-carros-pesquisa tr:nth-child(even){
+  background-color: #dddddd;
+}
+
+.icon-crud {
+  border: solid 5px;
+}
+.icon-crud button {
+  border: none;
+  background-color: transparent;
+}
+
+
+#table-lista-carros > tbody > tr > .icon-crud {
+  text-align: center;
+}
+
+.options-carros {
+  text-align: center;
+}
+
+.link-cadastrar {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: center;
+}
+.link-cadastrar > div {
+  margin-right: 5px;
+}
+
+.cadaster-carros {
+  width: 200px;
+}
+
+
+#table-container, #table-container-pesquisa{
+  overflow:scroll; 
+  width: 100%;
+  height: 75vh;
+}
+
+
+header ul img{
+  width: 35px;
+  margin: 2px;
+}
+header ul img:hover{
+  width: 28px; 
+  transition: 0.4s;
+}
+header ul{
+    display: flex;
+    flex-direction: column;
+}
+
+header div{  
+  text-align: center;
+}
+.title-header{
+  font-size: 23px;
+  color: rgb(20, 41, 75);
+}
+.cadastrar-carro{
+  color: rgb(20, 41, 75);
+}
+.icon-crud img {
+  width: 35px;
+}
+.icon-crud img{
+  cursor:pointer;
+}
+
+.icon-crud img:hover{
+  width: 28px;
+  transition: 0.4s;
+}
+
+/*Alugar*/
+
+.container-radio-alugar{
+  display: flex;
+  flex-direction: column;
+}
+
+.radio-alugar{
+  display: flex;
+  width: 25px;
+
+}
+
+.radio-alugar input{
+  margin-right: 10px;
+}
+
+.container-carro{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 400px;
+  margin: 20px auto;
+}
+
+.container-carro label{
+  margin-right: 15px;
+}
+
+#barra-pesquisa{
+  display: flex;
+}
+
+.cadaster-carros div{
+  color: rgb(20, 41, 75);
+}
